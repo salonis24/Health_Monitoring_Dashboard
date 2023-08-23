@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/img6.jpg');
+
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    
+
+}
+.mid{
+    display: block;
+    width: 42%;
+    margin: 5px auto;
+    font-size: 1px;
+    
+
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+
+}
+.navbar li a{
+    color:beige;
+    text-decoration: none;
+    padding: 32px 24px;
+
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:olive
+    
+}
+.left img{
+    height: 150px;
+    width: 160x;
+    display: block;
+    margin:0px auto;
+}
+.left div{
+    text-align: center;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+    color: beige;
+}
+.btn{
+    margin: 20px 30px;
+    font-size: 30px;
+    background-color:olive;
+    color:beige;
+    padding:25px 30px;
+    border: 2px solid gray;
+    border-radius: 60px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:dimgrey
+}
+.container{
+    border-radius: 10px;
+    margin: 300px 900px;
+    padding: 20px 30px;
+    width: 30%;
+
+}
+.container h2{
+    text-align: center;
+    font-size: 80px;
+    font-style:normal;
+    width: 100%;
+    color:antiquewhite
+    
+
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container button{
+    display: block;
+    width: 450px;
+    margin: 2px auto;
+    background-color:olivedrab;
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+    padding:3px 8px;
+    font-size: 30px;
+}
+.container button:hover{
+    background-color:dimgrey
+}
